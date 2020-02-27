@@ -1,5 +1,23 @@
 String[] 这是一个array
 String  这是一个object
 什么是interface：
-instance variable, fields, class variable 区别
+
+
+
+instance variable, fields, class variable 区别:
+Class Texas {
+  public int x;       
+}                   //instance variable , x会存在Texas这个object里，也就是dynamic里
+
+Class Texas {
+  public static int x;
+}                 // class variable， x会存在static里
+
+
+
+
+
+
 public int s = 0 和 int s = 0 的区别
+什么是cast
+thorws exception 执行原理？
