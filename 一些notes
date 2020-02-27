@@ -1,3 +1,5 @@
 String[] 这是一个array
 String  这是一个object
 什么是interface：
+instance variable, fields, class variable 区别
+public int s = 0 和 int s = 0 的区别
