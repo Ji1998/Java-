@@ -4,7 +4,7 @@ String  这是一个object
 
 
 
-instance variable, fields, class variable 区别:
+instance variable, fields, class variable 区别: fields 是指所有的variable
 Class Texas {
   public int x;       
 }                   //instance variable , x会存在Texas这个object里，也就是dynamic里
@@ -12,12 +12,13 @@ Class Texas {
 Class Texas {
   public static int x;
 }                 // class variable， x会存在static里
+uber u = new uber(), 这里u存在stack里，u是一个pointer，uber存在dynamic里。除了static，所有的fields都在stack里
 
 
 
 
 
 
-public int s = 0 和 int s = 0 的区别
+public int s = 0 和 int s = 0 的区别： 这两个一样，第二个只是省略了public
 什么是cast
 thorws exception 执行原理？
