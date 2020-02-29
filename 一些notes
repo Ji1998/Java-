@@ -18,7 +18,8 @@ uber u = new uber(), 这里u存在stack里，u是一个pointer，uber存在dynam
 break：跳出loop，直接运行loop之后的第一行
 return：回到caller
 
-
+throw: 出错就return，有点像return的功能
+Exception e: 错误被识别到后，e会被当做pointer指向比如illegalargumentexception这个object，之后就可以对e进行e.gettext()之类的操作
 
 public int s = 0 和 int s = 0 的区别： 这两个一样，第二个只是省略了public
 什么是cast
