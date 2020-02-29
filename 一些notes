@@ -15,7 +15,8 @@ Class Texas {
 uber u = new uber(), 这里u存在stack里，u是一个pointer，uber存在dynamic里。除了static，所有的fields都在stack里
 
 
-
+break：跳出loop，直接运行loop之后的第一行
+return：回到caller
 
 
 
