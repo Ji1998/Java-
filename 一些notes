@@ -24,6 +24,13 @@ Exception e: 错误被识别到后，e会被当做pointer指向比如illegalargu
 thread 拿不到lock的两种情况： 在outsider queue里，在inside queue里但是wait（）状态
 thread被notifyall（）之后只能one by one的复活
 
+
+
+'' 是char，且char不能为空的
+“” 是string，string可以为空的
+
+
+
 public int s = 0 和 int s = 0 的区别： 这两个一样，第二个只是省略了public
 什么是cast
 thorws exception 执行原理？
