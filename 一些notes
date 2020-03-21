@@ -34,3 +34,7 @@ thread被notifyall（）之后只能one by one的复活
 public int s = 0 和 int s = 0 的区别： 这两个一样，第二个只是省略了public
 什么是cast
 thorws exception 执行原理？
+
+array 没有toString函数，所以想要print array必须用Arrays.toString(array)；
+
+
