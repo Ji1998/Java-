@@ -39,3 +39,5 @@ array 没有toString函数，所以想要print array必须用Arrays.toString(arr
 
 Interface 的作用是可以限制能被call的函数。比如在server端implement一个interface，这样的话client端只能
 call和interface里边一样的server端函数
+
+e.getmessage() only print the information but not the type of the error, println(e) print the information and the type of the error
