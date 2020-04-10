@@ -37,4 +37,8 @@ thorws exception 执行原理？
 
 array 没有toString函数，所以想要print array必须用Arrays.toString(array)；
 
+Interface 的作用是可以限制能被call的函数。比如在server端implement一个interface，这样的话client端只能
+call和interface里边一样的server端函数
 
+Interface 的作用是可以限制能被call的函数。比如在server端implement一个interface，这样的话client端只能
+Interface 的作用是可以限制能被call的函数。比如在server端implement一个interface，这样的话client端只能
